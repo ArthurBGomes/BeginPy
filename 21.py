@@ -5,21 +5,21 @@
 
 #begin_inputs
 
-# defina as variaveis aqui
-x = 1
-y = 2
-a = x
-b = y
-c = 3
-z = 4
+a=1
+b=2
+c=3
+x=a
+y=b
+z=4
+
 #end_inputs
 
 
 #os prints vao a partir daqui
+
+
 print("{} e {} sao {} e {}".format(x,y,a,b))
-print("Total: {}".format(x+y))
-print("{} {} {} são numeros inteiros".format(a,b,c))
+print("Total: {} ".format(x+b))
+print("{} {} {} sao numeros inteiros".format(x,y,c))
 print("{} + 0 = {}".format(z,z+0))
-
-
 
