@@ -7,10 +7,11 @@
 
 # Defina as variáveis de entrada aqui
 # Não apague as linhas com #begin_inputs e #end_inputs
-num1 =int(input("digite seu numero:"))
-num2 =int(input("digite seu numero:"))
-soma = num1 + num2
+num1= int(input("Digite o primeiro numero:"))
+num2= int(input("Digite o segundo numero:"))
+
 #end_inputs
 
 # Faça o processamento e a exibição da saída a partir daqui
+soma = num1 + num2
 print(soma)
