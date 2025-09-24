@@ -6,6 +6,11 @@
 #begin_inputs
 # programa sem entrada (input)
 #end_inputs
-for i in range (1/1/2017,31/12/2020):
-    print(i)
+for a in range (2017,2021):
+    for m in range (1,13):
+        for d in range (1,31):
+            print("{}/{}/{}".format(d,m,a))
+	
+
+
 	
