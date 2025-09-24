@@ -4,11 +4,14 @@
 
 
 #begin_inputs
+contador = 0
  #mantenha esse trecho. o input será manipulado aqui.
+for i in range(10):
+    idade = int(input(""))
+    if idade>= 18:
+        contador += 1
+
 #end_inputs
-for x in range():
-    if x >= 18:
-        print("maior de idade")
-    else:
-        print("menor de idade")
+print(contador)
+   
 	

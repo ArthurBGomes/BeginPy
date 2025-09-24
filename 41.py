@@ -4,10 +4,10 @@
 
 
 #begin_inputs
-x = int(input("Escreva o numero:"))
-y = int(input("Escreva o numero:"))
+x = 3
+y = 8
 #end_inputs
 if x>y:
-    print(int(x))
+    print(x)
 else:
-    print(int(y))
+    print(y)
