@@ -6,13 +6,12 @@
 #begin_inputs
 
  #mantenha esse trecho. o input será manipulado aqui.
-contador = 0
-for i in range(10):
-    idade = int(input(""))
-    if idade>= 18:
-        contador += 1
 
 #end_inputs
-print(contador)
-   
-	
+inss = 0
+for i in range(10):
+    idade = int(input())
+    if idade>=18:
+        inss += 1
+
+print(inss) 
