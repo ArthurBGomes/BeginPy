@@ -4,8 +4,9 @@
 
 
 #begin_inputs
-contador = 0
+
  #mantenha esse trecho. o input será manipulado aqui.
+contador = 0
 for i in range(10):
     idade = int(input(""))
     if idade>= 18:
