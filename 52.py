@@ -8,14 +8,15 @@
 
 #end_inputs
 minutos = 0
-vt= 1
+vt= 1  
 vl= 10
 while True:
     minutos += 1
-    dist =(500 + vt) * minutos
-    disl = vl * minutos
-    if dist > disl:
-        print(round(dist > disl))
+    tartaruga = 500 + vt * minutos
+    lebre = vl * minutos
+    if lebre > tartaruga:
+        print(minutos)
+        break
 
 
 	
