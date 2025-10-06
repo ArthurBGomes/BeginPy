@@ -4,12 +4,12 @@
 
 
 #begin_inputs
- 
+
 
 #end_inputs
 minutos = 0
 vt= 1  
-vl= 10
+vl= 10 
 while True:
     minutos += 1
     tartaruga = 500 + vt * minutos
@@ -17,6 +17,11 @@ while True:
     if lebre > tartaruga:
         print(minutos)
         break
+
+
+
+ 
+
 
 
 	
