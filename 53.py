@@ -4,6 +4,9 @@
 
 
 #begin_inputs
+
+
+#end_inputs
 cm = 73000
 pm = 255000
 taipu = 12000
@@ -11,9 +14,6 @@ ccm= 1.03
 cpm = 1.01
 ctaipu = 1.1
 ano = 2018
-
-#end_inputs
-
 while pm > (cm + taipu):
     pm = round(pm * cpm)
     cm = round(cm * ccm)
