@@ -20,6 +20,6 @@ while pm > (cm + taipu):
     taipu= round(taipu * ctaipu)
     ano += 1
 
-print(" em {}, a população de Parnamirim ({}) é menor que a de ceara mirim ({}) e a de taipu ({}) juntas ".format(ano,pm,cm,taipu))
+print(" em {}, a populacao de Parnamirim ({}) é menor que a de ceara mirim ({}) e a de taipu ({}) juntas ".format(ano,pm,cm,taipu))
 
 	
