@@ -9,10 +9,7 @@
 
 	
 import random
-
-numeros = []
 for i in range(6):
-    numero = random.randint(1, 50)
-    numeros.append(numero)
+    print(random.randint(1, 50))
 
-print("Números sorteados:", numeros)
+
