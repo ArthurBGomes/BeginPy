@@ -8,6 +8,7 @@
 #end_inputs
 
 def craps():
+    jogadas = input().split(",")
     jogadas = [int(j.strip()) for j in jogadas]
 
     primeiro = jogadas[0]
