@@ -14,7 +14,7 @@ ccm= 1.03
 cpm = 1.01
 ctaipu = 1.1
 ano = 2018
-while pm > (cm + taipu):
+while pm > cm and taipu:
     pm = round(pm * cpm)
     cm = round(cm * ccm)
     taipu= round(taipu * ctaipu)
