@@ -20,6 +20,7 @@ while pm > cm and taipu:
     taipu= round(taipu * ctaipu)
     ano += 1
 
-print(" em {}, a populacao de Parnamirim ({}) é menor que a de ceara mirim ({}) e a de taipu ({}) juntas ".format(ano,pm,cm,taipu))
-
-	
+print("Parnamirim sera a terceira cidade em:{}".format(ano))
+print("Populacao de Parnamirim:{}".format(pm))
+print("Populacao de Ceara-Mirim:{}".format(cm))	
+print("Populacao de Taipu: {}".format(taipu))
