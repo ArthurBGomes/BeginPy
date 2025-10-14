@@ -14,12 +14,13 @@ ccm= 1.03
 cpm = 1.01
 ctaipu = 1.1
 ano = 2018
-while pm > (cm + taipu):
+while pm > cm and taipu:
     pm = round(pm * cpm)
     cm = round(cm * ccm)
     taipu= round(taipu * ctaipu)
     ano += 1
 
-print(" em {}, a populacao de Parnamirim ({}) é menor que a de ceara mirim ({}) e a de taipu ({}) juntas ".format(ano,pm,cm,taipu))
-
-	
+print("Parnamirim sera a terceira cidade em:{}".format(ano))
+print("Populacao de Parnamirim:{}".format(pm))
+print("Populacao de Ceara-Mirim:{}".format(cm))	
+print("Populacao de Taipu: {}".format(taipu))
