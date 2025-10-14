@@ -8,29 +8,38 @@
  #begin_inputs
  
  #end_inputs
- 
 def craps():
-     jogadas = "7, 7, 12, 12, 10".split(",")  
-     jogadas = [int(j.strip()) for j in jogadas]
+    jogadas = []
+
+   
+    while True:
+        try:
+            jogadas.append(int(input()))
+        except:
+            break
+
+    if not jogadas:
+        return
+
+    primeira = jogadas[0]
+
  
-     primeiro = jogadas[0]
- 
-     if primeiro in (7, 11):
-         print("Voce ganhou!")
-         return
-     elif primeiro in (2, 3, 12):
-         print("Voce perdeu!")
-         return
-     else:
-         ponto = primeiro
-         for valor in jogadas[1:]:
-             if valor == ponto:
-                 print("Voce ganhou!")
-                 return
-             elif valor == 7:
-                 print("Voce perdeu!")
-                 return
-         print("Jogo inconclusivo (nenhum ponto ou 7 obtido).")
- 
+    if primeira in [7, 11]:
+        print("Voce ganhou!")
+        return
+    elif primeira in [2, 3, 12]:
+        print("Voce perdeu!")
+        return
+    else:
+        ponto = primeira
+        for valor in jogadas[1:]:
+            if valor == ponto:
+                print("Voce ganhou!")
+                return
+            elif valor == 7:
+                print("Voce perdeu!")
+                return
+       
+        print("Voce perdeu!")
 craps()
  
