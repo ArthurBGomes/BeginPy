@@ -4,8 +4,8 @@
 
 
 #begin_inputs
-letras = ['a', 'e', 's', 'p', 'u']
-palavra = 'rose'
+letras = ['a', 'r', 's', 't',"f", 'u',"r","h"]
+palavra = 'rafa'
 
 #end_inputs
 
