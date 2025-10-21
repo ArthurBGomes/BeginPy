@@ -16,7 +16,7 @@ def megasena():
         if palpite < nummegasena:
             print("O numero secreto e MAIOR.")
         elif palpite > nummegasena:
-            print("O numero secreto e ENOR.")
+            print("O numero secreto e MENOR.")
         else:
             print(f"Parabens! Você acertou! O numero secreto era {nummegasena}.")
             break
