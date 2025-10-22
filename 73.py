@@ -4,11 +4,8 @@
 
 import random
 
-def sorteio_loteria():
+def quinadavirada():
     numeros = random.sample(range(1, 41), 25)
     numeros.sort()
     return numeros
-print(sorteio_loteria())
-
-
-
+print(quinadavirada())
