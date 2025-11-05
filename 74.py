@@ -13,4 +13,3 @@ if wanted in tel:
     print(f"o nome {wanted} está na lista de telefone{tel[user]}")
 else:
     print("não tem esse contato na lista")
-
