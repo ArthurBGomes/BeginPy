@@ -3,7 +3,7 @@
 # @aid V8.1
 
 def Escreva(Arquivo):
-    with open(Arquivo,"a") as w :
+    with open(Arquivo,"a",encoding = "utf-8") as w :
      w.write(input("Escreva:")+("\n"))
 
 def Leia(Arquivo):
@@ -11,7 +11,7 @@ def Leia(Arquivo):
        conteudo = leia.readlines()
     for ler in conteudo:
         print(ler.strip())
-Arquivo = "Bloco 81"
+Arquivo = "Bloco 81.txt"
 print("_______________________")
 print("1 - Adicionar Frase")
 print("2 - Ver Frases")
