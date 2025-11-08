@@ -7,8 +7,8 @@ for n in range(3):
     user = input("Nome:")
     num = input("numero:")
     tel[user] = num    
-print(f"{tel}")
-wanted = input("nome que vc quer:")
+print(f"{tel}",)
+wanted = input("\n""nome que vc quer:")
 if wanted in tel:
     print(f"o nome {wanted} está na lista de telefone{tel[user]}")
 else:
