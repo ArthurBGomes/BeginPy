@@ -7,7 +7,7 @@ def Escreva(Arquivo):
      w.write(input("Escreva:")+("\n"))
 
 def Leia(Arquivo):
-    with open(Arquivo,"r") as leia:
+    with open(Arquivo,"r",encoding="utf-8") as leia:
        conteudo = leia.readlines()
     for ler in conteudo:
         print(ler.strip())
