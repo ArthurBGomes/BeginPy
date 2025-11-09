@@ -10,4 +10,4 @@ with open("Bloco 82.txt","w+",encoding="utf-8") as linha:
     linha.write("Linha 5")
 with open("Bloco 82.txt","r",encoding="utf-8") as linha:  
     linhas = linha.readlines()
-print(f"A quantidade de linhas é {len(linhas)}")
+print(f"A quantidade de linhas is {len(linhas)}")
