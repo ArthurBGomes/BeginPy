@@ -4,20 +4,26 @@
 contatos = "Bloco 85.txt"
 def add(user,num):
     with open(contatos,"a",encoding="utf-8") as escreva:
-        escreva.write(f"{user};{num}")
+        escreva.write(f"{user} {num}\n")
 def check(contatos):
     with open(contatos,"r",encoding="utf-8") as leia:
-       leia.readlines()
-       for contato in contatos:
+       telefones = leia.readlines()
+       for contato in telefones:
             print(contato.strip())
 
-for n in range(3):
-    user = input("Nome:")
-    num = input("numero:")  
-    add(user,num)
+print("_______________________")
+print("1 - Adicionar Contato")
+print("2 - Ver Contatos")
+print("3 - Sair")
+pergunta = input("O que voce deseja fazer? ")
 
-wanted = input("\n""nome que vc quer:")
-if wanted in contatos:
-    check(contatos)
-else:
-    print("não tem esse contato na lista")
+while pergunta != "3":
+    if pergunta == "1":
+        user = input("Nome:")
+        num = input("numero:")
+        add(user,num)
+    elif pergunta == "2":
+        check(contatos)
+    else:
+        print("Escolha invalida")
+    pergunta = input("O que voce deseja fazer? ")

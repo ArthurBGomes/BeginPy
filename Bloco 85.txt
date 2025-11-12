@@ -1,1 +1,1 @@
-Arthur;13George;12Caio;14
+Arthur 10
