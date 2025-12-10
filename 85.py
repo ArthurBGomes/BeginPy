@@ -11,6 +11,37 @@ def check(contatos):
        for contato in telefones:
             print(contato.strip())
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
 print("_______________________")
 print("1 - Adicionar Contato")
 print("2 - Ver Contatos")
